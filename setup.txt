@@ -1,0 +1,27 @@
+apt-get install gdb
+apt-get install libestr
+apt-get install libestr-dev
+apt-get install libfastjson
+apt-get install libfastjson-dev
+apt-get install libgcrypt20-dev
+apt-get install libcurl-dev
+apt-get install libcurl4-dev
+apt-get install libcurl3-dev
+apt-get install liblognorm-dev
+apt-get install yacc
+apt-get install byacc -y
+apt-get install flex
+
+wget https://www.rsyslog.com/files/download/rsyslog/rsyslog-8.2012.0.tar.gz
+wget http://www.rsyslog.com/download/files/download/rsyslog/rsyslog-8.1901.0.tar.gz
+
+./configure --enable-debug --enable-mmnormalize --enable-imfile --enable-mmjsonparse --enable-pmnormalize --enable-imptcp --enable-openssl --enable-gnutls --enable-elasticsearch
+make CC="gcc -g"
+make install
+
+#Removing 
+make uninstall
+make clean
+
+/usr/local/sbin/rsyslogd -N1 -f /root/rsyslog/test.config
+

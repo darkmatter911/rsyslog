@@ -1,0 +1,11 @@
+2021-01-15T09:56:57-05:00 pfsense.localdomain openvpn[85332]: vpn_user/1.2.3.1:1194 peer info: IV_VER=2.4.9
+2021-01-15T09:56:57-05:00 pfsense.localdomain openvpn[85332]: vpn_user/1.2.3.1:1194 peer info: IV_PLAT=win
+2021-01-15T09:56:57-05:00 pfsense.localdomain openvpn[85332]: vpn_user/1.2.3.1:1194 peer info: IV_PROTO=2
+2021-01-15T09:56:57-05:00 pfsense.localdomain openvpn[85332]: vpn_user/1.2.3.1:1194 peer info: IV_LZ4=1
+2021-01-15T09:56:57-05:00 pfsense.localdomain openvpn[85332]: vpn_user/1.2.3.1:1194 peer info: IV_LZ4v2=1
+2021-01-15T09:56:57-05:00 pfsense.localdomain openvpn[85332]: vpn_user/1.2.3.1:1194 peer info: IV_LZO=1
+2021-01-15T09:56:57-05:00 pfsense.localdomain openvpn[85332]: vpn_user/1.2.3.1:1194 peer info: IV_COMP_STUB=1
+2021-01-15T09:56:57-05:00 pfsense.localdomain openvpn[85332]: vpn_user/1.2.3.1:1194 peer info: IV_COMP_STUBv2=1
+2021-01-15T09:56:57-05:00 pfsense.localdomain openvpn[85332]: vpn_user/1.2.3.1:1194 peer info: IV_TCPNL=1
+2021-01-15T09:56:57-05:00 pfsense.localdomain openvpn[85332]: vpn_user/1.2.3.1:1194 peer info: IV_GUI_VER=OpenVPN_GUI_11
+2021-01-15T09:56:57-05:00 pfsense.localdomain openvpn: user 'vpn_user' authenticated

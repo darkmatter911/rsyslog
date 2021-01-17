@@ -1,0 +1,9 @@
+bob
+alice 32
+stanely:55
+janet:[34]
+becky [82]
+janet '33' stuff
+openvpn: user 'vpnuser' authenticated
+Dec  6 10:13:57 pfsense.localdomain
+Dec  6 10:13:57 pfsense.localdomain openvpn: user 'vpnuser' authenticated

@@ -1,0 +1,13 @@
+2021-01-14T08:25:32-05:00 pfsense.localdomain dhcpd: DHCPACK on 10.0.11.21 to 70:26:05:4d:1b:f3 via bridge0
+2021-01-14T08:30:37-05:00 pfsense.localdomain dhcpd: reuse_lease: lease age 1518 (secs) under 25% threshold, reply with unaltered, existing lease for 10.0.11.21
+2021-01-14T08:30:37-05:00 pfsense.localdomain dhcpd: DHCPDISCOVER from 70:26:05:4d:1b:f3 via bridge0
+2021-01-14T08:30:38-05:00 pfsense.localdomain dhcpd: DHCPOFFER on 10.0.11.21 to 70:26:05:4d:1b:f3 via bridge0
+2021-01-14T08:30:38-05:00 pfsense.localdomain dhcpd: reuse_lease: lease age 1519 (secs) under 25% threshold, reply with unaltered, existing lease for 10.0.11.21
+2021-01-14T08:30:38-05:00 pfsense.localdomain dhcpd: DHCPREQUEST for 10.0.11.21 (10.0.11.1) from 70:26:05:4d:1b:f3 via bridge0
+2021-01-14T08:30:38-05:00 pfsense.localdomain dhcpd: DHCPACK on 10.0.11.21 to 70:26:05:4d:1b:f3 via bridge0
+2021-01-14T08:35:43-05:00 pfsense.localdomain dhcpd: DHCPDISCOVER from 70:26:05:4d:1b:f3 via bridge0
+2021-01-14T08:35:44-05:00 pfsense.localdomain dhcpd: DHCPOFFER on 10.0.11.21 to 70:26:05:4d:1b:f3 via bridge0
+2021-01-14T08:35:44-05:00 pfsense.localdomain dhcpd: DHCPREQUEST for 10.0.11.21 (10.0.11.1) from 70:26:05:4d:1b:f3 via bridge0
+2021-01-14T08:35:44-05:00 pfsense.localdomain dhcpd: DHCPACK on 10.0.11.21 to 70:26:05:4d:1b:f3 via bridge0
+2021-01-14T08:37:28-05:00 pfsense.localdomain dhcpd: DHCPREQUEST for 10.0.11.100 from b8:27:eb:f8:d7:d1 via bridge0
+2021-01-14T08:37:28-05:00 pfsense.localdomain dhcpd: DHCPACK on 10.0.11.100 to b8:27:eb:f8:d7:d1 via bridge0

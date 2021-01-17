@@ -1,0 +1,8 @@
+version=2
+# SSH and Sudo logins
+#prefix=%rcvdate:date-rfc5424% %host:word% %programname:char-to{"extradata":":"}%: 
+rule=: %action:word% on %ip:ipv4% to %mac:word% via %interface:word%
+rule=: %action:word% for %ip:ipv4% (%ip2:ipv4%) from %mac:word% via %interface:word%
+rule=: %action:word% for %ip:ipv4% from %mac:word% via %interface:word%
+rule=: %action:word% from %mac:word% via %interface:word%
+#rule=:%msg:rest%

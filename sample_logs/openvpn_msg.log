@@ -1,0 +1,11 @@
+ vpn_user/1.2.3.1:1194 peer info: IV_VER=2.4.9
+ vpn_user/1.2.3.1:1194 peer info: IV_PLAT=win
+ vpn_user/1.2.3.1:1194 peer info: IV_PROTO=2
+ vpn_user/1.2.3.1:1194 peer info: IV_LZ4=1
+ vpn_user/1.2.3.1:1194 peer info: IV_LZ4v2=1
+ vpn_user/1.2.3.1:1194 peer info: IV_LZO=1
+ vpn_user/1.2.3.1:1194 peer info: IV_COMP_STUB=1
+ vpn_user/1.2.3.1:1194 peer info: IV_COMP_STUBv2=1
+ vpn_user/1.2.3.1:1194 peer info: IV_TCPNL=1
+ vpn_user/1.2.3.1:1194 peer info: IV_GUI_VER=OpenVPN_GUI_11
+ user 'vpn_user' 1.2.3.1

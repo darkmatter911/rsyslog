@@ -1,0 +1,5 @@
+ reuse_lease: lease age 1212 (secs) under 25% threshold, reply with unaltered, existing lease for 10.0.11.21
+ DHCPDISCOVER from 70:26:05:4d:1b:f3 via bridge0
+ DHCPOFFER on 10.0.11.21 to 70:26:05:4d:1b:f3 via bridge0
+ DHCPREQUEST for 10.0.11.21 (10.0.11.1) from 70:26:05:4d:1b:f3 via bridge0
+ DHCPACK on 10.0.11.21 to 70:26:05:4d:1b:f3 via bridge0

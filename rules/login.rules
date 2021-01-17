@@ -1,0 +1,6 @@
+# SSH and Sudo logins
+prefix=%rcvdat:date-rfc3164% %rcvdfrom:word%
+rule=: sudo: pam_unix(sudo:session): session %type:word% for user root by %user:char-to:(%(uid=%-:number%)
+rule=: sudo: pam_unix(sudo:session): session %type:word% for user %user:word%
+rule=: sshd[%-:number%]: pam_unix(sshd:session): session %type:word% for user %user:word% by (uid=%-:number%)
+rule=: sshd[%-:number%]: pam_unix(sshd:session): session %type:word% for user %user:word%

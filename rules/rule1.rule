@@ -1,0 +1,12 @@
+version=2
+rule=:%name:word% %age:number%
+rule=:%name:word%:%age:number%
+rule=:%name:char-to:\:%:[%age:number%]
+rule=:%name:char-to:[%[%age:number%]
+rule=:%name:word% [%age:number%]
+rule=:%name:word% '%age:number%' stuff
+#Dec  6 10:13:57 pfsense.localdomain openvpn: user 'vpn_user' authenticated
+rule=:%host:word% %programname:word% user '%user:char-to:'%' authenticated
+rule=:%rcvdate:date-rfc3164% %rcvdfrom:word%
+rule=:%rcvdate:date-rfc3164% %rcvdfrom:word% %programname:word% user '%user:char-to:'%' authenticated
+rule=:%name:word%

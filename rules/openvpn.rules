@@ -1,0 +1,8 @@
+version=2
+# SSH and Sudo logins
+#Dec  6 10:13:57 pfsense.localdomain openvpn[93569]: vpn_user/72.196.237.7:1194 peer info: IV_GUI_VER=OpenVPN_GUI_11
+#Dec  6 10:13:57 pfsense.localdomain openvpn: user 'vpn_user' authenticated
+#prefix=<%host:char-to{"extradata":">"%>%rcvdate:date-rfc5424% %host:word%
+rule=: %programname:word% user '%user:char-to:'%' authenticate
+rule=: %programname:char-to:[%[%pid:number%]: %user:char-to:\x5c%\/%source:ipv4%:%port:number% [%user:char-to:]%] %msg:rest%
+

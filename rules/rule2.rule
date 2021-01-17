@@ -1,0 +1,11 @@
+version=2
+prefix=%rcvdate:date-rfc3164% %host:word%
+rule=: %programname:word% user '%user:char-to:'%' authenticated
+#rule=:%rcvdate:date-rfc3164% %host:word% %programname:word% user '%user:char-to:'%' authenticated
+#Dec  6 10:57:48 pfsense.localdomain openvpn[93569]: vpn_user\/72.196.237.7:1194 [vpn_user] Inactivity timeout (--ping-restart), restarting
+rule=: %programname:char-to:[%[%pid:number%]: %user:char-to:\x5c%\/%source:ipv4%:%port:number% [%user:char-to:]%] %msg:rest%
+#rule=: %programname:char-to:[%[%pid:number%]: %user:char-to:\x5c%\/%source:ipv4% [%user:char-to:]%]
+
+#rule=: %programname:char-to:[%[%pid:number%]: %user:char-to:\x5c%%stuff:char-to:/%/%source:ipv4% [%user:char-to:]%]
+rule=: %programname:char-to:[%[%pid:number%]
+

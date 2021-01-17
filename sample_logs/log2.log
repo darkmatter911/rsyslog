@@ -1,0 +1,5 @@
+Dec  6 10:13:57 pfsense.localdomain
+Dec  6 10:13:57 pfsense.localdomain openvpn: user 'vpnuser' authenticated
+Dec  6 10:57:48 pfsense.localdomain openvpn[93569]: vpn_user\/72.196.237.7:1194 [vpn_user] Inactivity timeout (--ping-restart), restarting
+Dec  6 10:57:48 pfsense.localdomain openvpn[93569]: vpn_user\/72.196.237.7 [vpn_user]
+Dec  6 10:57:48 pfsense.localdomain openvpn[93569]

@@ -1,0 +1,1 @@
+2021-01-15T10:06:24-05:00 pfsense.localdomain miniupnpd[62440]: No allowed eport for NAT-PMP 18250 tcp->10.0.11.102:32400
